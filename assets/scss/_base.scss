@@ -1,0 +1,121 @@
+@use "root";
+/* BEGIN : Base style */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  direction: rtl;
+  font-size: 1rem !important;
+}
+body {
+  background-color: #f9f9f9;
+}
+body,li,a,p,ul,table,th,td,tr,input,h1,h2,h3,h4,h5,h6,li,div,span,button,select{
+  font-family: irsans!important;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight : bold;
+  font-style : normal;
+}
+* {
+  font-style : normal;
+}
+.no-resize {
+  resize: none;
+}
+.no-resize-x {
+  resize: vertical;
+}
+.no-decoration {
+  text-decoration: none !important;
+}
+.container-custom {
+  width: 94%;
+  margin: 0 auto;
+  &-footer {
+    width: 92%;
+    margin: 0 auto;
+  }
+}
+.line-h-normal {
+  line-height: normal;
+}
+.line-h-20 {
+  line-height: 2rem;
+}
+.line-h-22 {
+  line-height: 2.2rem;
+}
+.line-h-23 {
+  line-height: 2.3rem;
+}
+.line-h-30 {
+  line-height: 3rem;
+}
+.opacity-6 {
+  opacity: 0.6 !important;
+}
+.opacity-65 {
+  opacity: 0.65 !important;
+}
+.opacity-7 {
+  opacity: 0.7 !important;
+}
+.opacity-8 {
+  opacity: 0.8 !important;
+}
+.opacity-9 {
+  opacity: 0.9 !important;
+}
+.font-s-1 {
+  font-size: 0.8125rem;
+}
+.font-s-2 {
+  font-size: 0.875rem;
+}
+.font-s-3 {
+  font-size: 0.9375rem;
+}
+.font-s-4 {
+  font-size: 1.3rem;
+}
+.font-w-200 {
+  font-weight: 200;
+}
+.font-w-300 {
+  font-weight: 300;
+}
+.my-45 {
+  margin: 2rem 0;
+}
+.px-6 {
+  padding: 0 5rem;
+}
+.border-r-8 {
+  border-radius: 8px;
+}
+.border-r-10 {
+  border-radius: 10px;
+}
+.border-r-100 {
+  border-radius: 100px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.h-100vh {
+  height: 100vh;
+}
+.max-h-500 {
+  max-height: 500px;
+}
+.min-h-600 {
+  min-height: 600px;
+}
+.text-offer-kala {
+  color: root.$primaryColor;
+}
+
+/* END : Base style */

@@ -1,0 +1,12 @@
+{
+  "name": "offerkala",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch --style=compressed assets/scss/:assets/css/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

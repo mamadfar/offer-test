@@ -1,0 +1,97 @@
+@use "root";
+/* BEGIN: Header */
+
+.main-menu {
+  min-height: 210px;
+  background-color: #ffffff;
+}
+
+.booth-header {
+  &-btn {
+    background-color: root.$primaryColor;
+    color: #ffffff !important;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    &-sm {
+      padding: 0.8rem 1.5rem;
+      border: none;
+    }
+  }
+
+  &-link {
+    border: 1px solid #e1e7ee;
+    padding: 0.7rem 1.5rem;
+    color: #000000 !important;
+  }
+}
+
+.header-search {
+  &-wrapper {
+    width: 100%;
+    max-width: 50%;
+  }
+
+  &-input {
+    width: 100%;
+    border: none;
+    background-color: root.$secondaryColor;
+    padding: 0.7rem 2.5rem 0.7rem 1.5rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 0.7rem;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+/* BEGIN: Mobile menu */
+
+.mmenu-toggle {
+  display: block;
+  width: 28px;
+  height: 22px;
+  padding: 2px;
+  margin: 2px;
+  position: absolute;
+  top: 30px;
+  right: 0;
+
+  & span {
+    background-color: gray;
+    display: block;
+    height: 2px;
+    margin: 6px 0;
+    width: 25px;
+    transition: width 0.3s;
+  }
+}
+
+.mmenu-toggle:hover span {
+  width: 20px;
+}
+
+.mmenu-toggle:after, .mmenu-toggle:before {
+  content: "";
+  display: block;
+  background-color: #000000;
+  height: 2px;
+  width: 25px;
+}
+
+/* END: Mobile menu */
+
+/* END: Header */

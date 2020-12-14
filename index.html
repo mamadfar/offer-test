@@ -1,0 +1,650 @@
+<!Doctype html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="index, follow"/>
+    <meta name="theme-color" content="#FFFFFF">
+    <meta name="author" content="Front-End => Mohammad Farhadi --- Back-End => Atabak Hooshangi"/>
+    <meta name="copyright" content="Offer Kala">
+    <link rel="icon" href="assets/img/common/favicon.png" type="image/png" sizes="16x16">
+    <meta http-equiv="content-type" content="text/html, charset=utf-8"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta property="og:image" content="">
+    <meta content="" name="keywords">
+    <meta content=""
+          name="description">
+    <!--? Feather -->
+    <link rel="stylesheet" href="./assets/css/feather/iconfont.css">
+    <!--? Bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
+    <!--? Custom Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--? Mmenu -->
+    <link rel="stylesheet" href="./assets/css/mobile-menu/mmenu.css">
+    <title>آفر کالا</title>
+</head>
+<body>
+
+<div id="wrapper">
+    <!--! BEGIN: header -->
+    <header>
+        <!--Main menu start-->
+        <section class="main-menu d-none d-md-block">
+            <div class="">
+                <section class="container-custom py-4">
+                    <div class="row no-gutters">
+                        <div class="align-self-center ml-5">
+                            <a href="index.html">
+                                <img src="./assets/img/common/offer-logo.png" alt="آفر کالا" class="img-fluid">
+                            </a>
+                        </div>
+                        <!-- search start -->
+                        <div class="header-search-wrapper position-relative align-self-center d-none d-md-block text-right">
+                            <button class="header-search-icon"><i class="feather icon-search"></i></button>
+                            <input class="header-search-input border-r-8" type="text"
+                                   placeholder="محصولات و غرفه ها رو کشف کن ...">
+                        </div>
+                        <!-- search end -->
+                        <div class="align-self-center ml-1 ml-lg-2 mr-auto d-none d-md-block">
+                            <button class="booth-header-btn-sm bg-light border-r-8"><i class="feather icon-user"></i>
+                            </button>
+                        </div>
+                        <div class="align-self-center ml-3 mr-1 mr-lg-2 d-none d-md-block">
+                            <button class="booth-header-btn-sm bg-light border-r-8"><i
+                                    class="feather icon-shopping-cart"></i></button>
+                        </div>
+                        <div class="align-self-center d-none d-md-block">
+                            <a href="#" class="no-decoration booth-header-btn border-r-8"><i
+                                    class="feather icon-plus align-middle"></i><span
+                                    class="mr-1"> آنلاین غرفه بساز</span></a>
+                        </div>
+                    </div>
+                </section>
+                <hr class="d-none d-md-block"/>
+                <section class="container-custom py-3">
+                    <nav class="row no-gutters">
+                        <div class="">
+                            <a href="#" class="no-decoration booth-header-link border-r-8"><i
+                                    class="feather icon-grid align-middle font-s-4"></i><span class="mx-2">غرفه های تخصصی</span></a>
+                        </div>
+                        <div class="px-4 border-left">
+                            <a href="#" class="no-decoration text-dark opacity-8"><span class="mx-2">محصولات</span><i
+                                    class="feather icon-chevron-down align-middle"></i></a>
+                        </div>
+                        <div class="">
+                            <ul class="list-unstyled d-flex flex-wrap mb-0">
+                                <li class="pr-4 pl-3">
+                                    <a href="#" class="no-decoration text-dark opacity-8">غرفه های ویژه</a>
+                                </li>
+                                <li class="px-3">
+                                    <a href="#" class="no-decoration text-dark opacity-8">وبلاگ</a>
+                                </li>
+                                <li class="px-3">
+                                    <a href="#" class="no-decoration text-dark opacity-8">درباره ما</a>
+                                </li>
+                                <li class="px-3">
+                                    <a href="#" class="no-decoration text-dark opacity-8">راهنما</a>
+                                </li>
+                                <li class="px-3">
+                                    <a href="#" class="no-decoration text-dark opacity-8">تماس با ما</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </section>
+            </div>
+        </section>
+        <!--Main menu end-->
+        <!--Mobile menu start-->
+        <div class="d-block d-md-none">
+            <div class="bg-white py-3">
+                <div class="ml-4">
+                    <a href="index.html">
+                        <img src="./assets/img/common/offer-logo.png" alt="آفر کالا" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <a class="mmenu-toggle" href="#menu"><span></span></a>
+            <nav id="menu">
+                <div id="panel-menu">
+                    <ul class="text-right">
+                        <!--                        <li><a href="index.html">خانه</a></li>-->
+                        <li>
+                            <span>غرفه های تخصصی</span>
+                            <ul class="text-right">
+                                <li><a href="">غرفه 1</a></li>
+                                <li><a href="">غرفه 2</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>محصولات</span>
+                            <ul class="text-right">
+                                <li>
+                                    <span>محصول 1</span>
+                                    <ul class="text-right">
+                                        <li>
+                                            <a href="">محصول 1-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 2-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 3-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 4-1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>محصول 1</span>
+                                    <ul class="text-right">
+                                        <li>
+                                            <a href="">محصول 1-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 2-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 3-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 4-1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>محصول 1</span>
+                                    <ul class="text-right">
+                                        <li>
+                                            <a href="">محصول 1-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 2-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 3-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 4-1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>محصول 1</span>
+                                    <ul class="text-right">
+                                        <li>
+                                            <a href="">محصول 1-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 2-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 3-1</a>
+                                        </li>
+                                        <li>
+                                            <a href="">محصول 4-1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="">غرفه های ویژه</a></li>
+                        <li><a href="">وبلاگ</a></li>
+                        <li><a href="">درباره ما</a></li>
+                        <li><a href="">راهنما</a></li>
+                        <li><a href="">تماس با ما</a></li>
+                        <li><a href="">آنلاین غرفه بساز</a></li>
+                    </ul>
+                </div>
+                <div id="panel-account">
+                    <ul class="text-right">
+                        <li><a href="#/">ورود</a></li>
+                        <li><a href="#/">ثبت نام</a></li>
+                        <li><a href="">پنل کاربری</a></li>
+                        <li><a href="#/">خروج</a></li>
+                    </ul>
+                </div>
+                <div id="panel-cart">
+                    <p style="text-align: center; padding-top: 30px;">
+                        سبد خرید شما خالی می باشد.<br/>
+                        <a href="#/">ادامه خرید</a>
+                    </p>
+                </div>
+            </nav>
+        </div>
+        <!--Mobile menu end-->
+    </header>
+    <!-- END: header -->
+    <!--! BEGIN: main -->
+    <main>
+        <section>
+            <div class="container-custom">
+                <div class="my-4">
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="ml-0 ml-lg-1">
+                                <img class="img-fluid max-h-500 viewport-img w-100"
+                                     src="./assets/img/mainPage/iranian-shop.jpg"
+                                     alt="آفر کالا">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 viewport-slider">
+                            <div class="h-100">
+                                <div id="carouselExampleIndicators" class="carousel slide h-100" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0"
+                                            class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="text-right pt-5 pr-5 text-white">
+                                        <h2 class="">غرفه های دائمی آنلاین</h2>
+                                    </div>
+                                    <div class="carousel-inner text-white">
+                                        <div class="carousel-item active px-5 py-3 font-s-2 line-h-normal font-w-200">
+                                            <p class="text-justify">اینجا مجموعه‌ای از غرفه‌های متنوع آنلاینه که این
+                                                غرفه‌های اینترنتی رو خود
+                                                تولیدکننده‌ و فروشنده‌های محصولات و خدمات مدیریت می کنن. پس همین حالا در
+                                                بین هزاران محصول جستجو کن و به آسونی و با امنیت بیشتری بخر.</p>
+                                            <div class="text-right mt-5 mb-5 mb-lg-0">
+                                                <a href="#" class="no-decoration viewport-slider-btn"><span
+                                                        class="ml-2">جزئیات بیشتر</span><i
+                                                        class="feather icon-chevron-left align-middle"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item px-5 py-3 font-s-2 line-h-normal font-w-200">
+                                            <p class="text-justify">اینجا مجموعه‌ای از غرفه‌های متنوع آنلاینه که این
+                                                غرفه‌های اینترنتی رو خود
+                                                تولیدکننده‌ و فروشنده‌های محصولات و خدمات مدیریت می کنن. پس همین حالا در
+                                                بین هزاران محصول جستجو کن و به آسونی و با امنیت بیشتری بخر.</p>
+                                            <div class="text-right mt-5 mb-5 mb-lg-0">
+                                                <a href="#" class="no-decoration viewport-slider-btn"><span
+                                                        class="ml-2">جزئیات بیشتر</span><i
+                                                        class="feather icon-chevron-left align-middle"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item px-5 py-3 font-s-2 line-h-normal font-w-200">
+                                            <p class="text-justify">اینجا مجموعه‌ای از غرفه‌های متنوع آنلاینه که این
+                                                غرفه‌های اینترنتی رو خود
+                                                تولیدکننده‌ و فروشنده‌های محصولات و خدمات مدیریت می کنن. پس همین حالا در
+                                                بین هزاران محصول جستجو کن و به آسونی و با امنیت بیشتری بخر.</p>
+                                            <div class="text-right mt-5 mb-5 mb-lg-0">
+                                                <a href="#" class="no-decoration viewport-slider-btn"><span
+                                                        class="ml-2">جزئیات بیشتر</span><i
+                                                        class="feather icon-chevron-left align-middle"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-custom">
+                <div class="bg-white border-r-8 my-3">
+                    <div class="text-right p-5">
+                        <div class="">
+                            <span class="opacity-6">غرفه ها</span>
+                        </div>
+                        <div class="mt-2 mb-4">
+                            <div class="row">
+                                <div class="align-self-center">
+                                    <h4>بر اساس استان <select class="border-0 text-offer-kala state-select" name="state"
+                                                              id="state">
+                                        <option value="tehran">تهران</option>
+                                        <option value="alborz">البرز</option>
+                                    </select></h4>
+                                </div>
+                                <div class="mr-auto align-self-center">
+                                    <div class="">
+                                        <a href="#" class="no-decoration text-dark opacity-6"><span class="ml-2">غرفه های بیشتر</span><i
+                                                class="feather icon-chevron-left align-middle"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters justify-content-between">
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/zhical-jean.jpg" class="booth-company-logo" alt="فروشگاه ژیکال">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label" alt="تایید">
+                                    <span class="font-s-2">فروشگاه ژیکال</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper text-center">
+                                    <img src="./assets/img/common/logos/mezonezibapooshan.jpg" class="booth-company-logo" alt="زیبا پوشان">
+                                    <img src="./assets/img/common/8star-gray.png" class="booth-company-logo-label" alt="تایید نشده">
+                                    <span class="font-s-2 ">زیبا پوشان</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/pooshakehana.jpg" class="booth-company-logo" alt="پوشاک هانا">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label" alt="تایید">
+                                    <span class="font-s-2">پوشاک هانا</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/iran_haraj.jpg" class="booth-company-logo" alt="فروشگاه آف 24">
+<!--                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label" alt="تایید">-->
+                                    <span class="font-s-2">فروشگاه آف 24</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/digikala.jpg" class="booth-company-logo" alt="دیجی کالا">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label" alt="تایید">
+                                    <span class="font-s-2">دیجی کالا</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/elanzacom.jpg" class="booth-company-logo" alt="فروشگاه الانزا">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label" alt="تایید">
+                                    <span class="font-s-2">فروشگاه الانزا</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/bigsize.jpg" class="booth-company-logo" alt="فروشگاه 4030">
+                                    <img src="./assets/img/common/8star-gray.png" class="booth-company-logo-label" alt="تایید نشده">
+                                    <span class="font-s-2">فروشگاه 4030</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/banimode.jpg" class="booth-company-logo" alt="بانی مد">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label" alt="تایید">
+                                    <span class="font-s-2">بانی مد</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/modman.jpg" class="booth-company-logo" alt="مد من">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label" alt="تایید">
+                                    <span class="font-s-2">مد من</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- END: main -->
+    <!--! BEGIN: footer -->
+    <footer>
+        <section>
+            <div class="footer-wrapper">
+                <div class="container-custom-footer">
+                    <section class="">
+                        <div class="row no-gutters">
+                            <div class="col-sm-3 d-none d-sm-block">
+                                <div class="text-right mt-5">
+                                    <a href="index.html" class="no-decoration">
+                                        <img class="img-fluid" src="./assets/img/common/offer-logo.png" alt="آفر کالا">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-9 align-self-center">
+                                <div class="text-left position-relative mt-5">
+                                    <form action="">
+                                        <b class="ml-3 d-block d-sm-inline text-right">خبرنامه</b>
+                                        <input class="footer-newsletter-input border-r-8" type="text"
+                                               placeholder="ایمیل خود را وارد کنید">
+                                        <button class="footer-newsletter-input-btn"><i
+                                                class="feather icon-send align-middle"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="my-4">
+                                    <hr>
+                                </div>
+                                <section>
+                                    <div class="row no-gutters">
+                                        <div class="align-self-center">
+                                            <ul class="list-unstyled d-flex flex-wrap mb-0 line-h-22">
+                                                <li class="pr-1 pl-3">
+                                                    <a href="#" class="no-decoration text-dark opacity-8">غرفه های
+                                                        ویژه</a>
+                                                </li>
+                                                <li class="px-3">
+                                                    <a href="#" class="no-decoration text-dark opacity-8">وبلاگ</a>
+                                                </li>
+                                                <li class="px-3">
+                                                    <a href="#" class="no-decoration text-dark opacity-8">درباره ما</a>
+                                                </li>
+                                                <li class="px-3">
+                                                    <a href="#" class="no-decoration text-dark opacity-8">راهنما</a>
+                                                </li>
+                                                <li class="px-3">
+                                                    <a href="#" class="no-decoration text-dark opacity-8">قوانین</a>
+                                                </li>
+                                                <li class="px-3">
+                                                    <a href="#" class="no-decoration text-dark opacity-8">تماس با ما</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="mr-sm-auto my-4 align-self-center">
+                                            <a href="#" class="no-decoration text-dark footer-btn border-r-8"><i
+                                                    class="feather icon-plus align-middle"></i><span class="mr-2">آنلاین غرفه بساز</span></a>
+                                        </div>
+                                    </div>
+                                </section>
+                                <div class="my-4">
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <section class="my-4">
+                                    <div class="row no-gutters">
+                                        <div class="col-lg-6 col-xl-4">
+                                            <div class="text-right">
+                                                <div class="">
+                                                    <h5>درباره آفر <span class="text-offer-kala">کالا</span></h5>
+                                                </div>
+                                                <div class="text-justify mt-4">
+                                                    <p class="line-h-normal opacity-8 pl-5 font-s-2">
+                                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                                                        استفاده
+                                                        از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون
+                                                        و
+                                                        سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+                                                        کاربردهای
+                                                        متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                                    </p>
+                                                </div>
+                                                <div class="text-left my-5 ml-5 line-h-normal">
+                                                    <span><i
+                                                            class="font-s-4 feather icon-phone-call text-offer-kala align-middle"></i><span
+                                                            class="ml-2">021546678</span></span>
+                                                    <span class="mx-3"><i
+                                                            class="font-s-4 feather icon-mail text-offer-kala align-middle"></i><span
+                                                            class="ml-2">info@offerkala.com</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-xl-5">
+                                            <div class="text-right">
+                                                <div class="d-flex flex-wrap justify-content-between">
+                                                    <div class="">
+                                                        <div class="">
+                                                            <h5>محصولات</h5>
+                                                        </div>
+                                                        <div class="p-3">
+                                                            <ul class="line-h-20 font-s-3 footer-list">
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">محصولات
+                                                                        جدید</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">محصولات
+                                                                        ویژه</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">محصولات
+                                                                        پرفروش</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">دسته
+                                                                        بندی ها</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <div class="">
+                                                            <h5>دسترسی سریع</h5>
+                                                        </div>
+                                                        <div class="p-3">
+                                                            <ul class="line-h-20 font-s-3 footer-list">
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">وبلاگ
+                                                                        ما</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">درباره
+                                                                        ما</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">تماس با
+                                                                        ما</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">پیشنهادات
+                                                                        و شکایات</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">راهنمای
+                                                                        خرید</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">سوالات
+                                                                        متداول</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <div class="">
+                                                            <h5>&nbsp</h5>
+                                                        </div>
+                                                        <div class="p-3">
+                                                            <ul class="line-h-20 font-s-3 footer-list">
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">روش های
+                                                                        ارسال</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">قوانین
+                                                                        و مقررات</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">اعتماد
+                                                                        سازی</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#"
+                                                                       class="no-decoration text-dark opacity-7">حریم
+                                                                        خصوصی</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 align-self-start">
+                                            <div class="text-center text-lg-left">
+                                                <div class="mt-5">
+                                                    <a href="#" class="no-decoration">
+                                                        <img class="img-fluid footer-img border-r-8"
+                                                             src="./assets/img/common/samandehi.png" alt="نشان ملی ثبت">
+                                                    </a>
+                                                    <a href="#" class="no-decoration">
+                                                        <img class="img-fluid footer-img border-r-8"
+                                                             src="./assets/img/common/enamad.png"
+                                                             alt="نماد اعتماد الکترونیک">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <div class="my-4">
+                                    <hr>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mt-3 mb-4">
+                                    <div class="row no-gutters justify-content-center">
+                                        <div class="text-center text-sm-right opacity-6 font-s-2">
+                                            <p>
+                                                استفاده از مطالب، تصاویر آفر کالا، فقط برای مقاصد غیر تجاری و با ذکر
+                                                منبع
+                                                بلامانع است.
+                                            </p>
+                                            <p>
+                                                تمامی حقوق مادی و معنوی متعلق به شرکت آفر کالا می باشد.
+                                            </p>
+                                        </div>
+                                        <div class="mr-sm-auto mx-auto mx-sm-0 align-self-center font-s-3">
+                                            <a href="#" class="no-decoration text-dark">
+                                                <i class="feather icon-facebook footer-icon"></i>
+                                            </a>
+                                            <a href="#" class="no-decoration text-dark">
+                                                <i class="feather icon-twitter footer-icon"></i>
+                                            </a>
+                                            <a href="#" class="no-decoration text-dark">
+                                                <i class="feather icon-instagram footer-icon"></i>
+                                            </a>
+                                            <a href="#" class="no-decoration text-dark">
+                                                <i class="feather icon-circle footer-icon"></i>
+                                            </a>
+                                            <a href="#" class="no-decoration text-dark">
+                                                <i class="feather icon-navigation footer-icon"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- END: footer -->
+</div>
+
+<!--? Scripts -->
+<script src="./assets/js/jQuery/jquery-3.5.1.slim.min.js"></script>
+<script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="./assets/js/mobile-menu/mmenu.js"></script>
+<script src="./assets/js/mobile-menu/mmenu-customize.js"></script>
+</body>
+</html>
