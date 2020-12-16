@@ -81,5 +81,28 @@
     margin: 0 auto;
   }
 }
+.section-head-border {
+  position: relative;
+  &:after {
+    position: absolute;
+    content: "";
+    bottom: -8px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 2rem;
+    height: 3px;
+    background-color: root.$primaryColor;
+  }
+}
+.category-slider-item {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 150px;
+  min-height: 150px;
+  border: 1px solid gray;
+  border-radius: 13px;
+}
 
 /* END: Main page */
