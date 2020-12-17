@@ -74,8 +74,7 @@
                                     class="feather icon-grid align-middle font-s-4"></i><span class="mx-2">غرفه های تخصصی</span></a>
                         </div>
                         <div class="px-4 border-left">
-                            <a href="#" class="no-decoration text-dark opacity-8"><span class="mx-2">محصولات</span><i
-                                    class="feather icon-chevron-down align-middle"></i></a>
+                            <a href="#" class="no-decoration text-dark opacity-8"><span class="mx-2">محصولات</span></a>
                         </div>
                         <div class="">
                             <ul class="list-unstyled d-flex flex-wrap mb-0">
@@ -399,7 +398,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="d-none d-sm-block">
             <div class="container-custom">
                 <div class="bg-white border-r-8 my-3">
                     <div class="py-5">
@@ -408,68 +407,600 @@
                                 <h5 class="section-head-border">دسته بندی های پرکاربرد</h5>
                             </div>
                         </div>
-                        <div id="splide">
-                            <div class="splide__track">
-                                <ul class="splide__list">
-                                    <li class="splide__slide">
-                                        <div class="text-center">
-                                            <div class="category-slider-item">
-                                                <div class="col-12 align-self-end">
-                                                    <i class="feather icon-menu"></i>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <b>فرهنگی و آموزشی</b>
-                                                </div>
-                                                <div class="col-12">
-                                                    <small>234 کالا</small>
-                                                </div>
-                                            </div>
+                        <!--                        <section class="px-4 py-5">-->
+                        <!--                            <div class="center slider" dir="ltr">-->
+                        <!--                                <div class="my-3">-->
+                        <!--                                    <div class="text-center">-->
+                        <!--                                        <div class="category-slider-item">-->
+                        <!--                                            <div class="col-12 align-self-end">-->
+                        <!--                                                <i class="feather icon-menu"></i>-->
+                        <!--                                            </div>-->
+                        <!--                                            <div class="col-12 align-self-end">-->
+                        <!--                                                <b>فرهنگی و آموزشی</b>-->
+                        <!--                                            </div>-->
+                        <!--                                            <div class="col-12">-->
+                        <!--                                                <small>234 کالا</small>-->
+                        <!--                                            </div>-->
+                        <!--                                        </div>-->
+                        <!--                                    </div>-->
+                        <!--                                </div>-->
+                        <!--                            </div>-->
+                        <!--                        </section>-->
+                        <!-- category slider start -->
+                        <div class="p-4">
+                            <div class="p-example__body" dir="ltr">
+                                <div class="p-example__splide">
+                                    <div id="example-per-move" class="splide js-splide p-splide"
+                                         data-splide="{&quot;type&quot;:&quot;loop&quot;,&quot;padding&quot;:&quot;5rem&quot;,&quot;height&quot;:&quot;9rem&quot;,&quot;perPage&quot;:6,&quot;perMove&quot;:1,&quot;breakpoints&quot;:{&quot;900&quot;:{&quot;height&quot;:&quot;6rem&quot;}}}">
+                                        <div class="splide__arrows p-splide__arrows">
+                                            <button class="splide__arrow p-splide__arrow splide__arrow--prev p-splide__arrow--prev">
+                                                <span class="feather icon-chevron-left"></span></button>
+                                            <button class="splide__arrow p-splide__arrow splide__arrow--next p-splide__arrow--next">
+                                                <span class="feather icon-chevron-right"></span></button>
                                         </div>
-                                    </li>
-                                    <li class="splide__slide">
-                                        <div class="text-center">
-                                            <div class="category-slider-item">
-                                                <div class="col-12 align-self-end">
-                                                    <i class="feather icon-menu"></i>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <b>فرهنگی و آموزشی</b>
-                                                </div>
-                                                <div class="col-12">
-                                                    <small>234 کالا</small>
-                                                </div>
-                                            </div>
+                                        <div class="splide__track">
+                                            <ul class="splide__list" id="splide">
+                                                <li class="splide__slide p-splide__slide">
+                                                    <div class="text-center">
+                                                        <a href="#" class="no-decoration category-slider-item-link">
+                                                            <div class="category-slider-item">
+                                                                <div class="col-12 align-self-end">
+                                                                    <i class="feather icon-server"></i>
+                                                                </div>
+                                                                <div class="col-12 align-self-end">
+                                                                    <b>فرهنگی و آموزشی</b>
+                                                                </div>
+                                                                <div class="col-12">
+                                                                    <small class="text-muted">234 کالا</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="splide__slide p-splide__slide">
+                                                    <div class="text-center">
+                                                        <a href="#" class="no-decoration category-slider-item-link">
+                                                            <div class="category-slider-item">
+                                                                <div class="col-12 align-self-end">
+                                                                    <i class="feather icon-server"></i>
+                                                                </div>
+                                                                <div class="col-12 align-self-end">
+                                                                    <b>فرهنگی و آموزشی</b>
+                                                                </div>
+                                                                <div class="col-12">
+                                                                    <small class="text-muted">234 کالا</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="splide__slide p-splide__slide">
+                                                    <div class="text-center">
+                                                        <a href="#" class="no-decoration category-slider-item-link">
+                                                            <div class="category-slider-item">
+                                                                <div class="col-12 align-self-end">
+                                                                    <i class="feather icon-server"></i>
+                                                                </div>
+                                                                <div class="col-12 align-self-end">
+                                                                    <b>فرهنگی و آموزشی</b>
+                                                                </div>
+                                                                <div class="col-12">
+                                                                    <small class="text-muted">234 کالا</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="splide__slide p-splide__slide">
+                                                    <div class="text-center">
+                                                        <a href="#" class="no-decoration category-slider-item-link">
+                                                            <div class="category-slider-item">
+                                                                <div class="col-12 align-self-end">
+                                                                    <i class="feather icon-server"></i>
+                                                                </div>
+                                                                <div class="col-12 align-self-end">
+                                                                    <b>فرهنگی و آموزشی</b>
+                                                                </div>
+                                                                <div class="col-12">
+                                                                    <small class="text-muted">234 کالا</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="splide__slide p-splide__slide">
+                                                    <div class="text-center">
+                                                        <a href="#" class="no-decoration category-slider-item-link">
+                                                            <div class="category-slider-item">
+                                                                <div class="col-12 align-self-end">
+                                                                    <i class="feather icon-server"></i>
+                                                                </div>
+                                                                <div class="col-12 align-self-end">
+                                                                    <b>فرهنگی و آموزشی</b>
+                                                                </div>
+                                                                <div class="col-12">
+                                                                    <small class="text-muted">234 کالا</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                                <li class="splide__slide p-splide__slide">
+                                                    <div class="text-center">
+                                                        <a href="#" class="no-decoration category-slider-item-link">
+                                                            <div class="category-slider-item">
+                                                                <div class="col-12 align-self-end">
+                                                                    <i class="feather icon-server"></i>
+                                                                </div>
+                                                                <div class="col-12 align-self-end">
+                                                                    <b>فرهنگی و آموزشی</b>
+                                                                </div>
+                                                                <div class="col-12">
+                                                                    <small class="text-muted">234 کالا</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
                                         </div>
-                                    </li>
-                                    <li class="splide__slide">
-                                        <div class="text-center">
-                                            <div class="category-slider-item">
-                                                <div class="col-12 align-self-end">
-                                                    <i class="feather icon-menu"></i>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <b>فرهنگی و آموزشی</b>
-                                                </div>
-                                                <div class="col-12">
-                                                    <small>234 کالا</small>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row no-gutters">
+                        <!-- category slider end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="">
+                <div class="container-custom">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="my-3">
+                                <img class="img-fluid border-r-18" src="./assets/img/mainPage/discount1.jpeg"
+                                     alt="تخفیف">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="my-3">
+                                <img class="img-fluid border-r-18" src="./assets/img/mainPage/discount1.jpeg"
+                                     alt="تخفیف">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="my-3">
+                                <img class="img-fluid border-r-18" src="./assets/img/mainPage/discount1.jpeg"
+                                     alt="تخفیف">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="">
+                <div class="container-custom">
+                    <div class="bg-white border-r-8 px-4 py-5 my-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex flex-wrap">
+                                    <div class="text-right">
+                                        <h5 class="booth-recommended-border">غرفه های پیشنهادی</h5>
+                                    </div>
+                                    <div class="mr-auto">
+                                        <a href="#" class="no-decoration text-dark opacity-6"><span class="ml-2">غرفه های بیشتر</span><i
+                                                class="feather icon-chevron-left align-middle"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="row no-gutters justify-content-center">
+                                    <div class="col-md-3">
+                                        <div class="card mt-5 mx-3 card-custom">
+                                            <div class="position-relative text-center">
+                                                <img src="./assets/img/mainPage/recommended-img-booth.png"
+                                                     class="card-img-top card-custom-img-top" alt="...">
+                                                <div class="booth-recommended-company-logo-main-wrapper">
+                                                    <div class="position-relative text-center">
+                                                        <div class="booth-recommended-company-logo-wrapper">
+                                                            <img src="./assets/img/common/logos/zhical-jean.jpg"
+                                                                 class="booth-recommended-company-logo"
+                                                                 alt="فروشگاه ژیکال">
+                                                            <img src="./assets/img/common/8star-blue.png"
+                                                                 class="booth-recommended-company-logo-label"
+                                                                 alt="تایید">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title text-center mt-5">فروشگاه ژیکال</h5>
+                                                <p class="card-text text-justify opacity-6">فروش انواع شلوار های جین ،
+                                                    لگ ورزشی ،
+                                                    تک زنانه ، تیشرت و تاپ زنانه</p>
+                                                <div class="d-flex flex-wrap text-right">
+                                                    <a href="#" class="btn booth-recommended-btn">
+                                                        <i class="feather icon-shopping-bag align-middle"></i>
+                                                        مد و پوشاک
+                                                    </a>
+                                                    <a href="#" class="btn booth-recommended-btn mr-auto">
+                                                        <i class="feather icon-eye align-middle"></i>
+                                                    </a>
+                                                    <a href="#" class="btn booth-recommended-btn mr-2">
+                                                        <i class="feather icon-heart align-middle"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mt-5 mx-3 card-custom">
+                                            <div class="position-relative text-center">
+                                                <img src="./assets/img/mainPage/recommended-img-booth.png"
+                                                     class="card-img-top card-custom-img-top" alt="...">
+                                                <div class="booth-recommended-company-logo-main-wrapper">
+                                                    <div class="position-relative text-center">
+                                                        <div class="booth-recommended-company-logo-wrapper">
+                                                            <img src="./assets/img/common/logos/zhical-jean.jpg"
+                                                                 class="booth-recommended-company-logo"
+                                                                 alt="فروشگاه ژیکال">
+                                                            <img src="./assets/img/common/8star-blue.png"
+                                                                 class="booth-recommended-company-logo-label"
+                                                                 alt="تایید">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title text-center mt-5">فروشگاه ژیکال</h5>
+                                                <p class="card-text text-justify opacity-6">فروش انواع شلوار های جین ،
+                                                    لگ ورزشی ،
+                                                    تک زنانه ، تیشرت و تاپ زنانه</p>
+                                                <div class="d-flex flex-wrap text-right">
+                                                    <a href="#" class="btn booth-recommended-btn">
+                                                        <i class="feather icon-shopping-bag align-middle"></i>
+                                                        مد و پوشاک
+                                                    </a>
+                                                    <a href="#" class="btn booth-recommended-btn mr-auto">
+                                                        <i class="feather icon-eye align-middle"></i>
+                                                    </a>
+                                                    <a href="#" class="btn booth-recommended-btn mr-2">
+                                                        <i class="feather icon-heart align-middle"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mt-5 mx-3 card-custom">
+                                            <div class="position-relative text-center">
+                                                <img src="./assets/img/mainPage/recommended-img-booth.png"
+                                                     class="card-img-top card-custom-img-top" alt="...">
+                                                <div class="booth-recommended-company-logo-main-wrapper">
+                                                    <div class="position-relative text-center">
+                                                        <div class="booth-recommended-company-logo-wrapper">
+                                                            <img src="./assets/img/common/logos/zhical-jean.jpg"
+                                                                 class="booth-recommended-company-logo"
+                                                                 alt="فروشگاه ژیکال">
+                                                            <img src="./assets/img/common/8star-blue.png"
+                                                                 class="booth-recommended-company-logo-label"
+                                                                 alt="تایید">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title text-center mt-5">فروشگاه ژیکال</h5>
+                                                <p class="card-text text-justify opacity-6">فروش انواع شلوار های جین ،
+                                                    لگ ورزشی ،
+                                                    تک زنانه ، تیشرت و تاپ زنانه</p>
+                                                <div class="d-flex flex-wrap text-right">
+                                                    <a href="#" class="btn booth-recommended-btn">
+                                                        <i class="feather icon-shopping-bag align-middle"></i>
+                                                        مد و پوشاک
+                                                    </a>
+                                                    <a href="#" class="btn booth-recommended-btn mr-auto">
+                                                        <i class="feather icon-eye align-middle"></i>
+                                                    </a>
+                                                    <a href="#" class="btn booth-recommended-btn mr-2">
+                                                        <i class="feather icon-heart align-middle"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mt-5 mx-3 card-custom">
+                                            <div class="position-relative text-center">
+                                                <img src="./assets/img/mainPage/recommended-img-booth.png"
+                                                     class="card-img-top card-custom-img-top" alt="...">
+                                                <div class="booth-recommended-company-logo-main-wrapper">
+                                                    <div class="position-relative text-center">
+                                                        <div class="booth-recommended-company-logo-wrapper">
+                                                            <img src="./assets/img/common/logos/zhical-jean.jpg"
+                                                                 class="booth-recommended-company-logo"
+                                                                 alt="فروشگاه ژیکال">
+                                                            <img src="./assets/img/common/8star-blue.png"
+                                                                 class="booth-recommended-company-logo-label"
+                                                                 alt="تایید">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <h5 class="card-title text-center mt-5">فروشگاه ژیکال</h5>
+                                                <p class="card-text text-justify opacity-6">فروش انواع شلوار های جین ،
+                                                    لگ ورزشی ،
+                                                    تک زنانه ، تیشرت و تاپ زنانه</p>
+                                                <div class="d-flex flex-wrap text-right">
+                                                    <a href="#" class="btn booth-recommended-btn">
+                                                        <i class="feather icon-shopping-bag align-middle"></i>
+                                                        مد و پوشاک
+                                                    </a>
+                                                    <a href="#" class="btn booth-recommended-btn mr-auto">
+                                                        <i class="feather icon-eye align-middle"></i>
+                                                    </a>
+                                                    <a href="#" class="btn booth-recommended-btn mr-2">
+                                                        <i class="feather icon-heart align-middle"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-custom">
+                <div class="bg-white border-r-8 my-3">
+                    <div class="text-right p-5">
+                        <div class="mb-5">
                             <div class="text-center">
-                                <div class="category-slider-item">
-                                    <div class="col-12 align-self-end">
-                                        <i class="feather icon-menu"></i>
+                                <h5 class="section-head-border">برترین غرفه ها</h5>
+                            </div>
+                        </div>
+                        <div class="row no-gutters justify-content-between">
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/zhical-jean.jpg" class="booth-company-logo"
+                                         alt="فروشگاه ژیکال">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label"
+                                         alt="تایید">
+                                    <span class="font-s-2">فروشگاه ژیکال</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper text-center">
+                                    <img src="./assets/img/common/logos/mezonezibapooshan.jpg"
+                                         class="booth-company-logo" alt="زیبا پوشان">
+                                    <img src="./assets/img/common/8star-gray.png" class="booth-company-logo-label"
+                                         alt="تایید نشده">
+                                    <span class="font-s-2 ">زیبا پوشان</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/pooshakehana.jpg" class="booth-company-logo"
+                                         alt="پوشاک هانا">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label"
+                                         alt="تایید">
+                                    <span class="font-s-2">پوشاک هانا</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/iran_haraj.jpg" class="booth-company-logo"
+                                         alt="فروشگاه آف 24">
+                                    <!--                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label" alt="تایید">-->
+                                    <span class="font-s-2">فروشگاه آف 24</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/digikala.jpg" class="booth-company-logo"
+                                         alt="دیجی کالا">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label"
+                                         alt="تایید">
+                                    <span class="font-s-2">دیجی کالا</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/elanzacom.jpg" class="booth-company-logo"
+                                         alt="فروشگاه الانزا">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label"
+                                         alt="تایید">
+                                    <span class="font-s-2">فروشگاه الانزا</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/bigsize.jpg" class="booth-company-logo"
+                                         alt="فروشگاه 4030">
+                                    <img src="./assets/img/common/8star-gray.png" class="booth-company-logo-label"
+                                         alt="تایید نشده">
+                                    <span class="font-s-2">فروشگاه 4030</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/banimode.jpg" class="booth-company-logo"
+                                         alt="بانی مد">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label"
+                                         alt="تایید">
+                                    <span class="font-s-2">بانی مد</span>
+                                </a>
+                            </div>
+                            <div class="position-relative text-center">
+                                <a href="#" class="no-decoration booth-company-logo-wrapper">
+                                    <img src="./assets/img/common/logos/modman.jpg" class="booth-company-logo"
+                                         alt="مد من">
+                                    <img src="./assets/img/common/8star-blue.png" class="booth-company-logo-label"
+                                         alt="تایید">
+                                    <span class="font-s-2">مد من</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="">
+                <div class="container-custom">
+                    <div class="bg-white border-r-8 px-4 py-5 my-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex flex-wrap">
+                                    <div class="text-right">
+                                        <h5 class="booth-recommended-border">محصولات <span class="text-offer-kala">پر فروش</span>
+                                            غرفه ها</h5>
                                     </div>
-                                    <div class="col-12 align-self-end">
-                                        <b>فرهنگی و آموزشی</b>
+                                    <div class="mr-auto">
+                                        <a href="#" class="no-decoration text-dark opacity-6"><span class="ml-2">محصولات بیشتر</span><i
+                                                class="feather icon-chevron-left align-middle"></i></a>
                                     </div>
-                                    <div class="col-12">
-                                        <small>234 کالا</small>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="row no-gutters justify-content-center">
+                                    <div class="col-md-3">
+                                        <div class="card mt-4 mx-3 card-custom-product">
+                                            <div class="position-relative text-center">
+                                                <img src="./assets/img/mainPage/top-sell-product.png"
+                                                     class="card-img-top card-custom-product-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body p-0">
+                                                <p class="card-text text-justify my-3">ساعت چوبی رومیزی
+                                                    هارمونی</p>
+                                                <div class="bg-light px-3 py-2 mx--1">
+                                                    <div class="d-flex flex-wrap">
+                                                        <div class="opacity-7">
+                                                            <img class="img-fluid card-custom-product-img-logo ml-1" src="./assets/img/common/logos/zhical-jean.jpg" alt="">
+                                                            فروشگاه ژیکال
+                                                        </div>
+                                                        <div class="mr-auto align-self-center">
+                                                            <i class="feather icon-bookmark align-middle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-wrap text-right my-3">
+                                                    <div class="align-self-center">
+                                                        <h6 class="mb-0"><span class="text-offer-kala ml-1">124.000</span><small
+                                                                class="text-muted font-s-1">تومان</small></h6>
+                                                    </div>
+                                                    <a href="#" class="btn booth-recommended-btn mr-auto">
+                                                        جزئیات کالا
+                                                        <i class="feather icon-chevron-left align-middle"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mt-4 mx-3 card-custom-product">
+                                            <div class="position-relative text-center">
+                                                <img src="./assets/img/mainPage/top-sell-product.png"
+                                                     class="card-img-top card-custom-product-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body p-0">
+                                                <p class="card-text text-justify my-3">ساعت چوبی رومیزی
+                                                    هارمونی</p>
+                                                <div class="bg-light px-3 py-2 mx--1">
+                                                    <div class="d-flex flex-wrap">
+                                                        <div class="opacity-7">
+                                                            <img class="img-fluid card-custom-product-img-logo ml-1" src="./assets/img/common/logos/zhical-jean.jpg" alt="">
+                                                            فروشگاه ژیکال
+                                                        </div>
+                                                        <div class="mr-auto align-self-center">
+                                                            <i class="feather icon-bookmark align-middle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-wrap text-right my-3">
+                                                    <div class="align-self-center">
+                                                        <h6 class="mb-0"><span class="text-offer-kala ml-1">124.000</span><small
+                                                                class="text-muted font-s-1">تومان</small></h6>
+                                                    </div>
+                                                    <a href="#" class="btn booth-recommended-btn mr-auto">
+                                                        جزئیات کالا
+                                                        <i class="feather icon-chevron-left align-middle"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mt-4 mx-3 card-custom-product">
+                                            <div class="position-relative text-center">
+                                                <img src="./assets/img/mainPage/top-sell-product.png"
+                                                     class="card-img-top card-custom-product-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body p-0">
+                                                <p class="card-text text-justify my-3">ساعت چوبی رومیزی
+                                                    هارمونی</p>
+                                                <div class="bg-light px-3 py-2 mx--1">
+                                                    <div class="d-flex flex-wrap">
+                                                        <div class="opacity-7">
+                                                            <img class="img-fluid card-custom-product-img-logo ml-1" src="./assets/img/common/logos/zhical-jean.jpg" alt="">
+                                                            فروشگاه ژیکال
+                                                        </div>
+                                                        <div class="mr-auto align-self-center">
+                                                            <i class="feather icon-bookmark align-middle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-wrap text-right my-3">
+                                                    <div class="align-self-center">
+                                                        <h6 class="mb-0"><span class="text-offer-kala ml-1">124.000</span><small
+                                                                class="text-muted font-s-1">تومان</small></h6>
+                                                    </div>
+                                                    <a href="#" class="btn booth-recommended-btn mr-auto">
+                                                        جزئیات کالا
+                                                        <i class="feather icon-chevron-left align-middle"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card mt-4 mx-3 card-custom-product">
+                                            <div class="position-relative text-center">
+                                                <img src="./assets/img/mainPage/top-sell-product.png"
+                                                     class="card-img-top card-custom-product-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body p-0">
+                                                <p class="card-text text-justify my-3">ساعت چوبی رومیزی
+                                                    هارمونی</p>
+                                                <div class="bg-light px-3 py-2 mx--1">
+                                                    <div class="d-flex flex-wrap">
+                                                        <div class="opacity-7">
+                                                            <img class="img-fluid card-custom-product-img-logo ml-1" src="./assets/img/common/logos/zhical-jean.jpg" alt="">
+                                                            فروشگاه ژیکال
+                                                        </div>
+                                                        <div class="mr-auto align-self-center">
+                                                            <i class="feather icon-bookmark align-middle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex flex-wrap text-right my-3">
+                                                    <div class="align-self-center">
+                                                        <h6 class="mb-0"><span class="text-offer-kala ml-1">124.000</span><small
+                                                                class="text-muted font-s-1">تومان</small></h6>
+                                                    </div>
+                                                    <a href="#" class="btn booth-recommended-btn mr-auto">
+                                                        جزئیات کالا
+                                                        <i class="feather icon-chevron-left align-middle"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -744,12 +1275,6 @@
 <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
 <script src="./assets/js/mobile-menu/mmenu.js"></script>
 <script src="./assets/js/mobile-menu/mmenu-customize.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-<script src="./assets/js/splide/splide.min.js"></script>
-<script>
-    document.addEventListener( 'DOMContentLoaded', function () {
-        new Splide( '.splide' ).mount();
-    } );
-</script>
+<script src='./assets/js/splide/splide.min.js'></script>
 </body>
 </html>

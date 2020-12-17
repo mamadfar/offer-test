@@ -3,27 +3,27 @@
 
 .viewport {
   &-slider {
-    background-color: root.$primaryColor;
-    border-radius: 8px 0 0 8px;
+	background-color: root.$primaryColor;
+	border-radius: 8px 0 0 8px;
 
-    &-btn {
-      background-color: #ffffff;
-      border: 1px solid #ffffff;
-      border-radius: 8px;
-      padding: 0.8rem 1rem 0.8rem 0.5rem;
-      color: root.$primaryColor;
-      transition: color 0.3s, background-color 0.3s, border 0.3s;
+	&-btn {
+	  background-color: #ffffff;
+	  border: 1px solid #ffffff;
+	  border-radius: 8px;
+	  padding: 0.8rem 1rem 0.8rem 0.5rem;
+	  color: root.$primaryColor;
+	  transition: color 0.3s, background-color 0.3s, border 0.3s;
 
-      &:hover {
-        background-color: transparent;
-        border: 1px solid #ffffff;
-        color: #ffffff;
-      }
-    }
+	  &:hover {
+		background-color: transparent;
+		border: 1px solid #ffffff;
+		color: #ffffff;
+	  }
+	}
   }
 
   &-img {
-    border-radius: 0 8px 8px 0;
+	border-radius: 0 8px 8px 0;
   }
 }
 
@@ -49,60 +49,189 @@
   */
   background: url('../../assets/img/common/chevron-down.svg') no-repeat 0 60%;
   background-size: 1rem auto;
+
   &focus {
-    outline: none;
+	outline: none;
   }
+
   & option {
-    font-size: 1rem;
+	font-size: 1rem;
   }
 }
+
 .booth-company-logo {
-    display: block;
-    width: 100%;
-    height: 100%;
-    max-width: 76px;
-    max-height: 77px;
-    margin: 1rem auto;
-    border-radius: 35px;
-    box-shadow: 0 0 81px 0 rgb(223, 231, 244,);
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 76px;
+  max-height: 77px;
+  margin: 1rem auto;
+  border-radius: 35px;
+  box-shadow: 0 0 81px 0 rgb(223, 231, 244,);
+
   &-wrapper {
-    color: #000000;
-    transition: color 0.3s;
-    &:hover {
-      color: root.$primaryColor;
-    }
+	color: #000000;
+	transition: color 0.3s;
+
+	&:hover {
+	  color: root.$primaryColor;
+	}
   }
 
   &-label {
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
   }
 }
+
 .section-head-border {
   position: relative;
+
   &:after {
-    position: absolute;
-    content: "";
-    bottom: -8px;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    width: 2rem;
-    height: 3px;
-    background-color: root.$primaryColor;
+	position: absolute;
+	content: "";
+	bottom: -8px;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	width: 2rem;
+	height: 3px;
+	border-radius: 8px;
+	background-color: root.$primaryColor;
   }
 }
-.category-slider-item {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  max-width: 150px;
-  min-height: 150px;
-  border: 1px solid gray;
-  border-radius: 13px;
+
+.category-slider {
+  &-item {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 150px;
+	min-height: 150px;
+	border: 1px solid gray;
+	border-radius: 13px;
+	transition: background-color 0.3s, border-color 0.3s;
+  }
+
+  &-item-link {
+	color: #000000;
+	transition: color 0.3s;
+
+	&:hover {
+	  color: root.$primaryColor;
+
+	  & .category-slider-item {
+		border-color: root.$secondaryColor;
+		background-color: root.$secondaryColor;
+	  }
+	}
+  }
+}
+
+/* slider start */
+.splide__list {
+  margin: 1.5rem 0 !important;
+}
+
+//[dir='rtl'] .slick-next:before, [dir='rtl'] .slick-prev:before {
+//  color: root.$primaryColor;
+//}
+/* slider end */
+.booth-recommended {
+  &-border {
+	position: relative;
+
+	&:after {
+	  position: absolute;
+	  content: "";
+	  width: 3rem;
+	  height: 3px;
+	  border-radius: 8px;
+	  background-color: root.$primaryColor;
+	  right: 0;
+	  bottom: -8px;
+	}
+  }
+  &-company-logo-main-wrapper {
+	position: absolute;
+	top: 65%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+  }
+  &-company-logo-wrapper {
+	color: #000000;
+	transition: color 0.3s;
+  }
+  &-company-logo {
+	display: block;
+	width: 100%;
+	height: 100%;
+	max-width: 56px;
+	max-height: 57px;
+	margin: 1rem auto;
+	border-radius: 35px;
+	box-shadow: 0 0 81px 0 rgb(223, 231, 244);
+  }
+  &-company-logo-label {
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	max-width: 15px;
+	max-height: 15px;
+  }
+  &-btn {
+	border: 1px solid gray;
+	border-radius: 8px;
+	transition: color 0.3s, border-color 0.3s;
+	&:hover {
+	  color: root.$primaryColor;
+	  border-color: root.$secondaryColor;
+	}
+  }
+}
+.card-custom-img-top {
+  border-radius: 18px;
+  max-width: 300px;
+  max-height: 150px;
+}
+.card-custom {
+  border-radius: 18px;
+  border-style: solid;
+  border-color: root.$secondaryColor;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  transition: box-shadow 0.3s;
+  & .card-body .card-title {
+	transition: color 0.3s;
+  }
+  &:hover {
+	box-shadow: 2px 2px 20px 10px root.$secondaryColor;
+	& .card-body .card-title {
+	  color: root.$primaryColor;
+	}
+  }
+}
+.card-custom-product {
+  border: 1px solid root.$secondaryColor;
+  border-radius: 18px;
+  padding: 0.5rem;
+&-img-top {
+  max-width: 300px;
+  max-height: 250px;
+  border-radius: 18px;
+}
+  &-img-logo {
+	max-width: 50px;
+	max-height: 50px;
+	border-radius: 35px;
+  }
 }
 
 /* END: Main page */
