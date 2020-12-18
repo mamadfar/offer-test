@@ -123,5 +123,11 @@ h1,h2,h3,h4,h5,h6 {
 .text-offer-kala {
   color: root.$primaryColor;
 }
+.bg-offer-kala {
+  background-color: root.$primaryColor !important;
+}
+.border-offer-kala {
+  border-color: root.$primaryColor !important;
+}
 
 /* END : Base style */
