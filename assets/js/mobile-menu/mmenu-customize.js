@@ -10,11 +10,11 @@ new Mmenu(
         iconbar: {
             use: '(min-width: 450px)',
             top: [
-                '<a href="index.html"><span class="feather icon-home align-middle"></span></a>',
+                '<a href="index.html"><span class="fad fa-2x fa-home-alt align-middle"></span></a>',
             ],
             bottom: [
-                '<a href="#/"><span class="feather icon-facebook align-middle"></span></a>',
-                '<a href="#/"><span class="feather icon-instagram align-middle"></span></a>',
+                '<a href="#/"><span class="fab fa-facebook-f align-middle"></span></a>',
+                '<a href="#/"><span class="fab fa-instagram align-middle"></span></a>',
             ],
         },
         sidebar: {
@@ -32,9 +32,9 @@ new Mmenu(
             {
                 type: 'tabs',
                 content: [
-                    '<a href="#panel-menu"><i class="feather icon-menu ml-2 align-middle"></i> <span>منو</span></a>',
-                    '<a href="#panel-account"><i class="feather icon-user ml-2 align-middle"></i> <span>اکانت</span></a>',
-                    '<a href="#panel-cart"><i class="feather icon-shopping-cart ml-2 align-middle"></i> <span>سبد خرید</span></a>',
+                    '<a href="#panel-menu"><i class="fad fa-th-large ml-2 align-middle"></i> <span>منو</span></a>',
+                    '<a href="#panel-account"><i class="fad fa-user ml-2 align-middle"></i> <span>اکانت</span></a>',
+                    '<a href="#panel-cart"><i class="fad fa-shopping-cart ml-2 align-middle"></i> <span>سبد خرید</span></a>',
                 ],
             },
             {

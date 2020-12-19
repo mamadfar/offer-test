@@ -132,10 +132,13 @@
 }
 
 /* slider start */
+.glide__arrow {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
 .splide__list {
   margin: 1.5rem 0 !important;
 }
-
 //[dir='rtl'] .slick-next:before, [dir='rtl'] .slick-prev:before {
 //  color: root.$primaryColor;
 //}
