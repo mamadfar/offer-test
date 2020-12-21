@@ -41,13 +41,8 @@
 }
 
 body {
-    direction: rtl;
     text-align: right;
     font-family: iranyekan;
-    font-size: 14px;
-    background-color: #f5f5f5;
-    color: #515151;
-    overflow-x: hidden;
 }
 
 a,
@@ -103,11 +98,11 @@ li {
     border-bottom: 1px dashed #1ca2bd;
 }
 
-.default {
-    width: 100%;
-    height: auto;
-    float: right;
-}
+/*.default {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    float: right;*/
+/*}*/
 
 .parent-btn {
     overflow: hidden;
@@ -2119,8 +2114,8 @@ footer.main-footer .copyright p {
 
 .checkbox-form .input-checkbox:checked+.checkbox-check,
 .checkbox-form input[type=checkbox]:checked+.checkbox-check {
-    background: #00bfd6;
-    border: 1px solid #1fa4b3;
+    background: #f53353;
+    border: 1px solid #f53353;
 }
 
 .checkbox-form .input-checkbox:checked+.checkbox-check:before,
@@ -2625,7 +2620,7 @@ footer.main-footer .copyright p {
 }
 
 .listing-sort li a.active {
-    background-color: #00bfd6;
+    background-color: #f53353;
     color: #fff;
 }
 
@@ -2910,7 +2905,7 @@ footer.main-footer .copyright p {
 .header-amazing-search {
     content: "";
     background-color: rgba(255, 80, 98, .89);
-    background-image: url('../img/svg/701f8a6b.svg');
+    background-image: url('../img/offer-icon/701f8a6b.svg');
     position: absolute;
     top: -15px;
     left: 0;
@@ -3083,8 +3078,8 @@ footer.main-footer .copyright p {
 }
 
 .pager-item.is-active {
-    background-color: #00bfd6;
-    border: 1px solid #00bfd6;
+    background-color: #f53353;
+    border: 1px solid #f53353;
     color: #fff;
 }
 
@@ -3570,17 +3565,17 @@ footer.main-footer .copyright p {
 }
 
 .checkout-feature-aside-item-guarantee {
-    background: url('../img/svg/return-policy.svg') 100% 50% no-repeat;
+    background: url('../img/offer-icon/return-policy.svg') 100% 50% no-repeat;
     background-size: 22px auto;
 }
 
 .checkout-feature-aside-item-cash {
-    background: url('../img/svg/payment-terms.svg') 100% 50% no-repeat;
+    background: url('../img/offer-icon/payment-terms.svg') 100% 50% no-repeat;
     background-size: 22px auto;
 }
 
 .checkout-feature-aside-item-express {
-    background: url('../img/svg/delivery.svg') 100% 50% no-repeat;
+    background: url('../img/offer-icon/delivery.svg') 100% 50% no-repeat;
     background-size: 22px auto;
 }
 
@@ -5260,7 +5255,7 @@ main.profile-user-page .table-order td.order-code {
     position: absolute;
     width: 100%;
     height: 6px;
-    background-color: #00bfd6;
+    background-color: #f53353;
     right: -50%;
     bottom: -20px;
     z-index: 1000000;
@@ -5273,7 +5268,7 @@ main.profile-user-page .table-order td.order-code {
 }
 
 .shopping-page header.header-shopping .checkout-steps li a.active {
-    color: #00bfd6;
+    color: #f53353;
 }
 
 .shopping-page header.header-shopping .checkout-steps li a.active::after {
@@ -5286,7 +5281,7 @@ main.profile-user-page .table-order td.order-code {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #00bfd6;
+    background-color: #f53353;
     z-index: 1000;
 }
 
@@ -5311,7 +5306,7 @@ main.profile-user-page .table-order td.order-code {
     bottom: 0;
     right: -1px;
     position: absolute;
-    background-color: #8dd4dc;
+    background-color: #f54864;
     content: "";
 }
 
@@ -5376,7 +5371,7 @@ main.profile-user-page .table-order td.order-code {
     background-color: #f3feff;
     -webkit-box-shadow: 0 8px 9px 0 rgba(0, 0, 0, .05);
     box-shadow: 0 8px 9px 0 rgba(0, 0, 0, .05);
-    border: 1px solid #8dd4dd;
+    border: 1px solid #f53353;
     position: absolute;
     right: -20px;
     top: 50%;
@@ -5385,7 +5380,7 @@ main.profile-user-page .table-order td.order-code {
     border-radius: 50%;
     text-align: center;
     line-height: 41px;
-    color: #2fc9dc;
+    color: #f53353;
 }
 
 .shopping-page .checkout-contact-location {
@@ -5546,7 +5541,7 @@ main.profile-user-page .table-order td.order-code {
     line-height: 0;
     width: 49px;
     height: 40px;
-    background-image: url(../img/svg/d86ea8ec.svg);
+    background-image: url(../img/offer-icon/d86ea8ec.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: contain;
