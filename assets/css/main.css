@@ -156,7 +156,7 @@ button.dk-btn {
 }
 
 .dk-btn-info {
-    background-color: #00bfd6;
+    background-color: #f53353;
 }
 
 .dk-btn-danger {
@@ -802,7 +802,7 @@ header.main-header .main-menu1 .list .list-item.mega-menu .sub-menu a {
 }
 
 header.main-header .main-menu1 .list .list-item.mega-menu>.sub-menu>li>a {
-    color: #00bfd6;
+    color: #f53353;
     display: inline-block;
     border-bottom: 1px dashed transparent;
     padding-right: 0;
@@ -810,12 +810,12 @@ header.main-header .main-menu1 .list .list-item.mega-menu>.sub-menu>li>a {
 }
 
 header.main-header .main-menu1 .list .list-item.mega-menu>.sub-menu>li>a:hover {
-    border-bottom: 1px dashed #00bfd6;
+    border-bottom: 1px dashed #f53353;
     background: 0 0 !important;
 }
 
 header.main-header .main-menu1 .list .list-item.mega-menu .sub-menu li a.main-list-item {
-    color: #00bfd6 !important;
+    color: #f53353 !important;
     display: inline-block;
     border-bottom: 1px dashed transparent;
     padding-right: 0;
@@ -823,7 +823,7 @@ header.main-header .main-menu1 .list .list-item.mega-menu .sub-menu li a.main-li
 }
 
 header.main-header .main-menu1 .list .list-item.mega-menu .sub-menu li a.main-list-item:hover {
-    border-bottom: 1px dashed #00bfd6;
+    border-bottom: 1px dashed #f53353;
     background: 0 0 !important;
 }
 

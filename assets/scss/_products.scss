@@ -1,0 +1,13 @@
+/* BEGIN: products */
+.booth-city {
+  position: absolute;
+  bottom: 8px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.booth-box:hover .booth-city {
+visibility: visible;
+  opacity: 1;
+}
+/* END: products */
