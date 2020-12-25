@@ -1849,7 +1849,7 @@ footer.main-footer .copyright p {
 /* login---register---welcome Page */
 .account-box {
     background: #fff;
-    width: 389px;
+    /*width: 389px;*/
     margin: 70px auto;
     border: 1px solid #dedede;
     box-shadow: 0 12px 12px 0 hsla(0, 0%, 71%, .11);
@@ -1908,9 +1908,9 @@ footer.main-footer .copyright p {
     margin: 0 -10px 23px;
 }
 
-.form-account-row.with-icon .input-field.text-right {
-    padding-right: 60px;
-}
+/*.form-account-row.with-icon .input-field.text-right {*/
+/*    padding-right: 60px;*/
+/*}*/
 
 .form-account-row.with-icon .input-field.text-right::placeholder {
     padding-right: 0;
@@ -1961,6 +1961,9 @@ footer.main-footer .copyright p {
     font-size: 14px;
     text-align: right;
     padding-right: 40px;
+}
+.input-field-custom::placeholder {
+    padding-right: 0 !important;
 }
 
 .ui-input--account-login .ui-input-field,
