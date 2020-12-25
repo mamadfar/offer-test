@@ -31,7 +31,7 @@
     <link href="./assets/css/main.css" rel="stylesheet"/>
     <!--? Mmenu -->
     <link rel="stylesheet" href="./assets/css/mobile-menu/mmenu.css">
-    <title>آفر کالا | سبد خرید</title>
+    <title>آفر کالا | پرداخت انجام نشد</title>
 </head>
 <body>
 <div id="wrapper">
@@ -251,20 +251,27 @@
             <header class="header-shopping no-box-shadow">
                 <div class="container">
                     <div class="row">
+                        <div class="col-12 text-center pt-2">
+                            <div class="header-shopping-logo default">
+                                <a href="#">
+                                    <img src="assets/img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
                         <div class="col-12 text-center">
-                            <ul class="checkout-steps mt-4">
+                            <ul class="checkout-steps">
                                 <li>
                                     <a href="shopping.html" class="active">
                                         <span>اطلاعات ارسال</span>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="shopping-payment.html">
+                                <li class="active">
+                                    <a href="shopping-payment.html" class="active">
                                         <span>پرداخت</span>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="shopping-complete-buy.html">
+                                <li class="active">
+                                    <a href="shopping-complete-buy.html" class="active">
                                         <span>اتمام خرید و ارسال</span>
                                     </a>
                                 </li>
@@ -274,236 +281,62 @@
                 </div>
             </header>
             <!-- header-shopping -->
-
-            <!-- main-shopping -->
-            <main class="cart-page">
+            <div class="cart-page">
                 <div class="container">
                     <div class="row">
-                        <div class="cart-page-content col-xl-9 col-lg-8 col-md-12 order-1">
-                            <div class="cart-page-title">
-                                <h1>انتخاب آدرس تحویل سفارش</h1>
-                            </div>
+                        <div class="cart-page-content col-12 order-1">
                             <section class="page-content default">
-                                <div class="address-section">
-                                    <div class="checkout-contact">
-                                        <div class="checkout-contact-content">
-                                            <ul class="checkout-contact-items">
-                                                <li class="checkout-contact-item">
-                                                    گیرنده:
-                                                    <span class="full-name">جلال بهرامی راد</span>
-                                                    <a class="checkout-contact-btn-edit">اصلاح این آدرس</a>
-                                                </li>
-                                                <li class="checkout-contact-item">
-                                                    <div class="checkout-contact-item checkout-contact-item-mobile">
-                                                        شماره تماس:
-                                                        <span class="mobile-phone">۰۹۰۳۰۸۱۳۷۴۲</span>
-                                                    </div>
-                                                    <div class="checkout-contact-item-message">
-                                                        کد پستی:
-                                                        <span class="post-code">۹۹۹۹۹۹۹۹۹۹</span>
-                                                    </div>
-                                                    <br>
-                                                    استان
-                                                    <span class="state">خراسان شمالی</span>
-                                                    ، ‌شهر
-                                                    <span class="city">بجنورد</span>
-                                                    ،
-                                                    <span class="address-part">خراسان شمالی-بجنورد</span>
-                                                </li>
-                                            </ul>
-                                            <div class="checkout-contact-badge">
-                                                <i class="now-ui-icons ui-1_check"></i>
-                                            </div>
-                                        </div>
-                                        <a class="checkout-contact-location">تغییر آدرس ارسال</a>
+                                <div class="warning-checkout text-center default">
+                                    <div class="icon-warning">
+                                        <i class="fa fa-close"></i>
+                                    </div>
+                                    <h1>سفارش <a href="#">DKC-22222222</a>ثبت شد اما پرداخت ناموفق بود.</h1>
+                                    <p class="text-warning">برای جلوگیری از لغو سیستمی سفارش،تا 24 ساعت آینده پرداخت را انجام دهید.</p>
+                                    <p>چنانچه طی این فرایند مبلغی از حساب شما کسر شده است،طی 72 ساعت آینده به حساب شما باز خواهد گشت.</p>
+                                </div>
+                                <div class="order-info default">
+                                    <h3>کد سفارش: <span>DKC-22222222</span></h3>
+                                    <p>سفارش شما با موفقیت در سیستم ثبت شد و هم اکنون <span
+                                            class="badge badge-warning">در انتظار پرداخت</span> است.جزئیات این سفارش را می توانید
+                                        با کلیک بر روی دکمه <a href="#" class="btn-link-border">پیگیری سفارش</a>مشاهده نمایید.</p>
+                                    <button type="button" class="btn-primary">
+                                        پیگیری سفارش
+                                    </button>
+                                    <div class="table-responsive default mt-3 mb-3">
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">نام تحویل گیرنده : جلال بهرامی راد</th>
+                                                <th scope="col">شماره تماس : 09030000000</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">تعداد مرسوله : 1</th>
+                                                <td>مبلغ کل : 15390000</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">وضعیت پرداخت : پرداخت آنلاین(ناموفق)</th>
+                                                <td>وضعیت سفارش: در انتظار پرداخت</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">آدرس : استان خراسان شمالی،بجنورد</th>
+                                            </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
-                                <form method="post" id="shipping-data-form">
-                                    <div class="headline">
-                                        <span>انتخاب نحوه ارسال</span>
-                                    </div>
-                                    <div class="checkout-shipment">
-                                        <div class="radio">
-                                            <input type="radio" name="radio1" id="radio1" value="option1">
-                                            <label for="radio1">
-                                                عادی
-                                            </label>
-                                        </div>
-
-                                        <div class="radio">
-                                            <input class="text-offer-kala" type="radio" name="radio1" id="radio2"
-                                                   value="option2" checked="">
-                                            <label for="radio2">
-                                                سریع‌ (مرسوله‌ها در سریع‌ترین زمان ممکن ارسال می‌شوند)
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="headline">
-                                        <span>مرسوله ۱ از ۱</span>
-                                    </div>
-                                    <div class="checkout-pack">
-                                        <section class="products-compact">
-                                            <div class="box">
-                                                <div class="row">
-                                                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                                                        <div class="product-box-container">
-                                                            <div class="product-box product-box-compact">
-                                                                <a class="product-box-img">
-                                                                    <img class="max-w-85 max-h-85" src="assets/img/shopping/phone-product.jpg">
-                                                                </a>
-                                                                <div class="product-box-title">
-                                                                    گوشی موبایل هوآوی مدل Nova 3i INE-LX1M دو سیم
-                                                                    کارت...
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                                                        <div class="product-box-container">
-                                                            <div class="product-box product-box-compact">
-                                                                <a class="product-box-img">
-                                                                    <img class="max-w-85 max-h-85" src="assets/img/shopping/laptop-product.jpg">
-                                                                </a>
-                                                                <div class="product-box-title">
-                                                                    لپ تاپ 14 اینچی ایسوس مدل ZenBook UX430UA - A
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        <div class="row">
-                                            <div class="checkout-time-table checkout-time-table-time">
-                                                <span class="checkout-additional-options-checkbox-image"></span>
-                                                <div>
-                                                    <div
-                                                            class="checkout-time-table-title-bar checkout-time-table-title-bar-city">
-                                                        بازه تحویل سفارش: زمان تقریبی تحویل از
-                                                        <span>۱۳ خرداد</span>
-                                                        تا
-                                                        <span>۲۰ خرداد</span></div>
-                                                    <ul class="checkout-time-table-subtitle-bar">
-                                                        <li>شیوه ارسال : پست پیشتاز با ظرفیت اختصاصی برای دیجی کالا</li>
-                                                        <li>هزینه ارسال:
-                                                            <span class="">رایگان</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="headline">
-                                        <span>صدور فاکتور</span>
-                                    </div>
-                                    <div class="checkout-invoice">
-                                        <div class="checkout-invoice-headline">
-                                            <div class="form-account-agree">
-                                                <label class="checkbox-form checkbox-primary">
-                                                    <input type="checkbox" checked="checked" id="agree">
-                                                    <span class="checkbox-check"></span>
-                                                </label>
-                                                <label for="agree">درخواست ارسال فاکتور خرید</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
                             </section>
                         </div>
-                        <aside class="cart-page-aside col-xl-3 col-lg-4 col-md-6 center-section order-2">
-                            <div class="checkout-aside">
-                                <div class="checkout-summary">
-                                    <div class="checkout-summary-main">
-                                        <ul class="checkout-summary-summary">
-                                            <li><span>مبلغ کل (۱ کالا)</span><span>۱۵,۳۹۰,۰۰۰ تومان</span></li>
-                                            <li>
-                                                <span>هزینه ارسال</span>
-                                                <span>وابسته به آدرس<span class="wiki wiki-holder"><span
-                                                        class="wiki-sign"></span>
-                                                    <div class="wiki-container js-dk-wiki is-right">
-                                                        <div class="wiki-arrow"></div>
-                                                        <p class="wiki-text">
-                                                            هزینه ارسال مرسولات می‌تواند وابسته به شهر و آدرس گیرنده
-                                                            متفاوت باشد. در
-                                                            صورتی که هر
-                                                            یک از مرسولات حداقل ارزشی برابر با ۱۰۰هزار تومان داشته باشد،
-                                                            آن مرسوله
-                                                            بصورت رایگان
-                                                            ارسال می‌شود.<br>
-                                                            "حداقل ارزش هر مرسوله برای ارسال رایگان، می تواند متغیر
-                                                            باشد."
-                                                        </p>
-                                                    </div>
-                                                </span></span>
-                                            </li>
-                                        </ul>
-                                        <div class="checkout-summary-devider">
-                                            <div></div>
-                                        </div>
-                                        <div class="checkout-summary-content">
-                                            <div class="checkout-summary-price-title">مبلغ قابل پرداخت:</div>
-                                            <div class="checkout-summary-price-value">
-                                                <span class="checkout-summary-price-value-amount">۱۵,۳۹۰,۰۰۰</span>تومان
-                                            </div>
-                                            <a href="#" class="selenium-next-step-shipping">
-                                                <div class="parent-btn">
-                                                    <button class="dk-btn bg-offer-kala">
-                                                        ادامه ثبت سفارش
-                                                        <i class="now-ui-icons shopping_basket"></i>
-                                                    </button>
-                                                </div>
-                                            </a>
-                                            <div>
-                                            <span>
-                                                کالاهای موجود در سبد شما ثبت و رزرو نشده‌اند، برای ثبت سفارش مراحل بعدی
-                                                را تکمیل
-                                                کنید.
-                                            </span>
-                                                <span class="wiki wiki-holder"><span class="wiki-sign"></span>
-                                                <div class="wiki-container is-right">
-                                                    <div class="wiki-arrow"></div>
-                                                    <p class="wiki-text">
-                                                        محصولات موجود در سبد خرید شما تنها در صورت ثبت و پرداخت سفارش
-                                                        برای شما رزرو
-                                                        می‌شوند. در
-                                                        صورت عدم ثبت سفارش، تاپ کالا هیچگونه مسئولیتی در قبال تغییر
-                                                        قیمت یا موجودی
-                                                        این کالاها
-                                                        ندارد.
-                                                    </p>
-                                                </div>
-                                            </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="checkout-feature-aside">
-                                    <ul>
-                                        <li class="checkout-feature-aside-item checkout-feature-aside-item-guarantee">
-                                            هفت روز
-                                            ضمانت تعویض
-                                        </li>
-                                        <li class="checkout-feature-aside-item checkout-feature-aside-item-cash">
-                                            پرداخت در محل با
-                                            کارت بانکی
-                                        </li>
-                                        <li class="checkout-feature-aside-item checkout-feature-aside-item-express">
-                                            تحویل اکسپرس
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </aside>
                     </div>
                 </div>
-            </main>
-            <hr>
-            <div class="back-to-top text-center mb-2">
-                <a href="#"><span class="icon px-2 py-1 bg-white rounded-circle"><i
-                        class="now-ui-icons arrows-1_minimal-up align-middle"></i></span> <span>بازگشت به
+                <hr>
+                <div class="back-to-top text-center mb-2">
+                    <a href="#"><span class="icon px-2 py-1 bg-white rounded-circle"><i
+                            class="now-ui-icons arrows-1_minimal-up align-middle"></i></span> <span>بازگشت به
                         بالا</span></a>
+                </div>
             </div>
-            <!-- main-shopping -->
         </div>
     </main>
     <!-- END: main -->

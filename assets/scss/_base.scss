@@ -13,7 +13,7 @@ body {
   background-color: #f9f9f9;
 }
 body,li,a,p,ul,table,th,td,tr,input,h1,h2,h3,h4,h5,h6,li,div,span,button,select{
-  font-family: irsans!important;
+  font-family: iranyekan !important;
 }
 h1,h2,h3,h4,h5,h6 {
   font-weight : bold;
@@ -119,6 +119,33 @@ h1,h2,h3,h4,h5,h6 {
 }
 .min-h-600 {
   min-height: 600px;
+}
+.max-h-115 {
+  max-height: 115px;
+}
+.max-h-85 {
+  max-height: 85px;
+}
+.max-h-54 {
+  max-height: 54px;
+}
+.max-h-30 {
+  max-height: 30px;
+}
+.max-w-30 {
+  max-width: 30px;
+}
+.max-w-54 {
+  max-width: 54px;
+}
+.max-w-85 {
+  max-width: 85px;
+}
+.max-w-115 {
+  max-width: 115px;
+}
+.max-w-400 {
+  max-width: 400px;
 }
 .text-offer-kala {
   color: root.$primaryColor;

@@ -44,6 +44,9 @@ body {
     text-align: right;
     font-family: iranyekan;
 }
+body,li,a,p,ul,table,th,td,tr,input,h1,h2,h3,h4,h5,h6,li,div,span,button,select {
+    font-family: iranyekan !important;
+}
 
 a,
 a:hover {
@@ -639,7 +642,7 @@ header.main-header .main-menu1 {
     width: 100%;
     float: right;
     background: #616161;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     border-bottom: 2px solid #000;
 }
 
@@ -2021,7 +2024,7 @@ footer.main-footer .copyright p {
 }
 
 .btn-link-border:hover {
-    color: #1ca2bd;
+    color: #f53353;
 }
 
 .btn-link-border:after {
@@ -3756,17 +3759,19 @@ main.single-product .product .gallery-items .owl-nav .owl-next i{
     font-size: 13px;
     font-size: .929rem;
     line-height: 1.692;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .product-variants>span {
     font-size: inherit;
     color: inherit;
     padding-left: 15px;
-    float: right;
+    /*float: right;*/
 }
 
 .product-variants .radio {
-    float: right;
+    /*float: right;*/
     margin-left: 7px;
 }
 
@@ -4803,7 +4808,7 @@ main.profile-user-page .profile-box {
 
 main.profile-user-page .profile-box-header {
     position: relative;
-    background-color: #00bfd6;
+    background-color: #f53353;
     height: 47px;
 }
 
@@ -4948,8 +4953,8 @@ main.profile-user-page .profile-menu-items li a i {
 
 main.profile-user-page .profile-menu-items li a.active,
 main.profile-user-page .profile-menu-items li a:hover {
-    background-color: #f6ffff;
-    color: #009ec9;
+    background-color: #fff4f5;
+    color: #f53353;
 }
 
 main.profile-user-page h1.title-tab-content {
@@ -5131,8 +5136,8 @@ main.profile-user-page .profile-return-request-form-row .profile-return-request-
 main.profile-user-page .profile-return-request-form-row .btn-primary {
     font-size: 15px;
     border-radius: 8px;
-    background-color: #00bfd6;
-    border: 1px solid #148693;
+    background-color: #f53353;
+    border: 1px solid #ff8597;
     color: #fff;
     font-weight: 700;
     padding: 10px 20px;
@@ -5143,8 +5148,8 @@ main.profile-user-page .profile-return-request-form-row .btn-primary {
 main.profile-user-page .content-section .view-product {
     font-size: 15px;
     border-radius: 8px;
-    background-color: #00bfd6;
-    border: 1px solid #148693;
+    background-color: #f53353;
+    border: 1px solid #fa7c94;
     color: #fff;
     font-weight: 700;
     padding: 10px 20px;
@@ -5884,8 +5889,8 @@ main.profile-user-page .table-order td.order-code {
 .cart-page-content .page-content .btn-primary {
     font-size: 15px;
     border-radius: 8px;
-    background-color: #00bfd6;
-    border: 1px solid #148693;
+    background-color: #f53353;
+    border: 1px solid #f87084;
     color: #fff;
     font-weight: 700;
     padding: 10px 20px;

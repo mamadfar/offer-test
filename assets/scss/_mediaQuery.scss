@@ -79,7 +79,7 @@
     min-height: 190px;
   }
   .header-search-wrapper {
-    max-width: 40%;
+    max-width: 30%;
     margin-left: 0.5rem;
   }
   .viewport {
@@ -101,6 +101,9 @@
   .splide__track {
     padding-bottom: 4rem;
   }
+  .booth-header-btn {
+    padding: 0.3rem;
+  }
 }
 
 // Large devices (desktops, 992px and up)
@@ -112,7 +115,7 @@
     min-height: 200px;
   }
   .header-search-wrapper {
-    max-width: 49%;
+    max-width: 38%;
   }
   .booth-company-logo-label {
     bottom: 26px;
